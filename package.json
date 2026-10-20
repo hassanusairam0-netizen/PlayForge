@@ -1,0 +1,21 @@
+{
+  "name": "playforge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PLAYFORGE — One world. 25 ways to play. Made by Usairam Hassan.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/smoke.mjs"
+  },
+  "dependencies": {
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.2",
+    "vite": "^5.4.10",
+    "wordlist-english": "^1.2.1"
+  }
+}
